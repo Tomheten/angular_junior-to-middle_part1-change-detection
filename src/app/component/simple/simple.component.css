@@ -1,0 +1,8 @@
+.simple-component {
+  display: flex;
+  flex-direction: row;
+}
+
+.simple-component__counter {
+  margin-left: 20px;
+}

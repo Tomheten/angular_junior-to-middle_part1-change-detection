@@ -1,0 +1,13 @@
+<div class="grandparent">
+  <div class="grandparent__head">
+    <h1>grandparent component</h1>
+    <h1 class="grandparent__counter">
+      {{getCounter()}}
+    </h1>
+  </div>
+
+  <div class="grandparent__content">
+    <app-grandparent-svg></app-grandparent-svg>
+    <app-parent [trigger]=counterService.emptyObject></app-parent>
+  </div>
+</div>

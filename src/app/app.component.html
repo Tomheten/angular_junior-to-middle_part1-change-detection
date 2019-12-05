@@ -1,0 +1,20 @@
+<app-counter></app-counter>
+<!--<app-simple></app-simple>-->
+
+
+<div class="btn-container">
+  <button class="btn btn-outline-secondary" (click)="tick()">call tick()</button>
+  <div class="btn-container__parent-btns">
+    <button class="btn btn-outline-secondary" (click)="store.parent.cd.markForCheck()">call parent cd markForCheck()</button>
+    <button class="btn btn-outline-secondary" (click)="store.parent.cd.detectChanges()">parent change detect</button>
+    <button class="btn btn-outline-secondary" (click)="changeParentTriggerRef()">change parent @Input</button>
+  </div>
+  <div class="btn-container__grand-parent-btns">
+<!--    <button class="btn btn-outline-secondary" (click)="store.grandparent.cd.markForCheck()">call grand-parent cd markForCheck()</button>-->
+<!--    <button class="btn btn-outline-secondary" (click)="store.grandparent.cd.detectChanges()">grand-parent change detect</button>-->
+  </div>
+</div>
+<!--<input type="text" #myInput id="myInput" class="form-control" style="width: 300px">-->
+<!--<hr>-->
+<!--<app-parent [trigger]="counterService.emptyObject"></app-parent>-->
+<app-grandparent></app-grandparent>

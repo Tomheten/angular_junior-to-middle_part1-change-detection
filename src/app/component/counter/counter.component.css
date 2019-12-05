@@ -1,0 +1,41 @@
+.counter {
+  width: 100%;
+  --btn-txt-size: 2rem;
+}
+
+.counter__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter__decreaseBtn {
+  width: var(--counter-side-size);
+  height: var(--counter-side-size);
+  font-size: var(--btn-txt-size);
+  font-weight: 900;
+}
+
+.counter__increaseBtn {
+  width: var(--counter-side-size);
+  height: var(--counter-side-size);
+  font-size: var(--btn-txt-size);
+  font-weight: 900;
+
+}
+
+.counter__count {
+  margin: 5px;
+  border-top: 3px solid var(--count-color);
+  border-bottom: 3px solid var(--count-color);
+  color: var(--count-color);
+  border-radius: 30%/45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--counter-side-size);
+  height: var(--counter-side-size);
+  font-size: var(--counter-font-size);
+  font-weight: bold;
+}

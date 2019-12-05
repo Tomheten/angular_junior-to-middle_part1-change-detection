@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --counter-side-size: 80px;
+  --counter-font-size: 2rem;
+  --count-color: #28a745;
+}
+
+.svg {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px
+}
+
+.btn-container__parent-btns.btn-container__grand-parent-btns {
+  flex-direction: row;
+}

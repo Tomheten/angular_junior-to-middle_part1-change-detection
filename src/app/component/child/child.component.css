@@ -1,0 +1,23 @@
+.child {
+  background-color: green;
+  width: 400px;
+}
+
+.child__head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #003900;
+}
+
+.child__counter {
+  margin-left: 30px;
+  z-index: 3;
+  color: white;
+  text-shadow: 0 0  4px white;
+}
+
+.child__content {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+<div class="counter">
+  <div class="counter__content">
+    <button class="counter__decreaseBtn btn btn-outline-danger" (click)="counterService.decreaseCounter()">
+      <em class="fa fa-arrow-down"></em>
+    </button>
+    <div class="counter__count">{{counterService.counter}}</div>
+    <button class="counter__increaseBtn btn btn-outline-success" (click)="counterService.increaseCounter()">
+      <em class="fa fa-arrow-up"></em>
+      </button>
+  </div>
+</div>
